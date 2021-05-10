@@ -32,6 +32,7 @@ function e(eve) {
   for (let i = 0; i < defaultEl.length; i++) {
     if (defaultEl[i].description === bigImgEl) {
       element = defaultEl[i].original;
+      break;
     }
   }
 
